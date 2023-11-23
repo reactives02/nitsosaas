@@ -3,6 +3,33 @@ import { BsLightningChargeFill, BsLightningCharge } from "react-icons/bs";
 export const showCaseHeading = "Real-time relationships need real-time data.";
 export const showCaseSubHeading =
   "Product that has been developed by Nitro SaaS (about)";
+// export const LINKS = [
+//   {
+//     name: "Home",
+//     hash: "#home",
+//   },
+//   {
+//     name: "About",
+//     hash: "#about",
+//   },
+//   {
+//     name: "Work",
+//     hash: "#work",
+//   },
+//   {
+//     name: "Service",
+//     hash: "#service",
+//   },
+//   {
+//     name: "Blog",
+//     hash: "#blog",
+//   },
+//   {
+//     name: "Contact",
+//     hash: "#contact",
+//   },
+// ]
+
 export const LINKS = [
   {
     name: "Sevices",
@@ -159,3 +186,55 @@ export const CardData = [
   },
 ];
 
+export const QA = [
+   {
+    question:"What services does your software company provide?",
+    icon:<BsLightningChargeFill />,
+    answer:"We offer a wide range of services, including frontend and backend development, SaaS product customization, Machine Learning and AI solutions, and design services. Our expertise covers diverse aspects of the digital landscape.",
+   },
+   {
+    question:" How can I request a quote for my project?",
+    icon:<BsLightningCharge />,
+    answer:"",
+   },
+   {
+    question:"What industries does your software company cater to?",
+    icon:<BsLightningCharge />,
+    answer:"",
+   },
+   {
+    question:"Can you explain your approach to design and user experience (UI/UX)?",
+    icon:<BsLightningCharge />,
+    answer:"",
+   },
+   {
+    question:"How do you ensure the security of the software and data?",
+    icon:<BsLightningCharge />,
+    answer:"",
+   },
+   {
+    question:"Can you provide references or case studies of your previous work?",
+    icon:<BsLightningCharge />,
+    answer:"",
+   },
+   {
+    question:"What is the typical timeline for project delivery?",
+    icon:<BsLightningCharge />,
+    answer:"",
+   },
+   {
+    question:"How do you handle post-launch support and maintenance?",
+    icon:<BsLightningCharge />,
+    answer:"",
+   },
+   {
+    question:"Do you provide training for using the software or solutions you develop?",
+    icon:<BsLightningCharge />,
+    answer:"",
+   },
+   {
+    question:"What sets your software company apart from others in the industry?",
+    icon:<BsLightningCharge />,
+    answer:"",
+   },
+]
