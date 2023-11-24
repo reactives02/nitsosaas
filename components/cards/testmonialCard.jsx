@@ -7,7 +7,7 @@ function TestmonialCard() {
      <div className="flex flex-wrap justify-evenly mt-10">
      {
         testmonialcardData.map((item,idx)=>(
-            <div className=" w-[250px] shadow-custom rounded-lg pt-3 px-6 pb-3 m-4">
+            <div key={idx} className=" w-[250px] shadow-custom rounded-lg pt-3 px-6 pb-3 m-4">
       <div className="header relative flex gap-4 mb-4">
         <div className="flex">
           <img
