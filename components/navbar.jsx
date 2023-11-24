@@ -48,7 +48,7 @@ export default function Navbar() {
         <ul className='hidden sm:flex sm:gap-6'>
          {
           LINKS.map((link,idx)=>(
-            <li key={idx} className='text-[0.82rem]'>
+            <li key={idx} className='text-[0.82rem] cursor-pointer'>
               {link.name}
             </li>
           ))
