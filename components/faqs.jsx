@@ -18,6 +18,7 @@ function Faqs() {
        {
         QA.map((items,idx)=> (
             <Question
+              key={idx}
         question={items.question}
         icon={items.icon}
         answer={items.answer}
